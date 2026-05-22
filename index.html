@@ -587,33 +587,81 @@
         });
     </script>
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "IT Rulez",
-      "image": "https://rulezit.com/og-image.png",
-      "description": "Professional Information Technology consultancy and support for web, software, database and hardware based projects.",
-      "url": "https://rulezit.com/",
-      "founder": {
-        "@type": "Person",
-        "name": "Azerhan Berk Nil",
-        "jobTitle": "Freelance IT Specialist"
-      },
-      "address": {
-        "@type": "0107",
-        "addressLocality": "Tbilisi",
-        "addressCountry": "GE"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/company/itrulez/",
-        "https://www.linkedin.com/in/azerhan-berk-nil/",
-        "https://www.instagram.com/itrulezhub/",
-        "https://www.youtube.com/@itrulezhub",
-        "https://www.facebook.com/itrulezhub/",
-        "https://github.com/azerhanberknil"
-      ],
-      "knowsAbout": ["Web Development", "Software & DB Solutions", "Hardware QA", "AI Integration"]
-    }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://rulezit.com/#organization",
+  "name": "IT Rulez",
+  "url": "https://rulezit.com/",
+  "image": "https://rulezit.com/og-image.png",
+  "description": "Professional Information Technology consultancy and support for web, software, database and hardware based projects.",
+  "areaServed": "Worldwide",
+  "serviceType": [
+    "Web Development",
+    "Software & Database Solutions",
+    "Hardware QA",
+    "AI Integration",
+    "Blockchain Development",
+    "Network Security"
+  ],
+  "founder": {
+    "@type": "Person",
+    "@id": "https://rulezit.com/#founder",
+    "name": "Azerhan Berk Nil"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Tbilisi",
+    "addressCountry": "GE"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/itrulez/",
+    "https://www.instagram.com/itrulezhub/",
+    "https://www.youtube.com/@itrulezhub",
+    "https://www.facebook.com/itrulezhub/"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://rulezit.com/#founder",
+  "name": "Azerhan Berk Nil",
+  "jobTitle": "Freelance IT Specialist",
+  "url": "https://rulezit.com/",
+  "worksFor": {
+    "@id": "https://rulezit.com/#organization"
+  },
+  "knowsAbout": [
+    "Web Development",
+    "Software Development",
+    "Database Management",
+    "Hardware QA",
+    "AI Integration",
+    "Blockchain Development",
+    "Network Security",
+    "Linux"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/azerhan-berk-nil/",
+    "https://github.com/azerhanberknil"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://rulezit.com/#website",
+  "name": "IT RULEZ",
+  "url": "https://rulezit.com/",
+  "publisher": {
+    "@id": "https://rulezit.com/#organization"
+  }
+}
+</script>
 </body>
 </html>
