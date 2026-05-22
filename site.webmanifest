@@ -1,7 +1,7 @@
 {
   "name": "IT RULEZ",
   "short_name": "IT RULEZ",
-  "description": "Information&Technology consultancy and support by IT Rulez.",
+  "description": "Information & Technology consultancy and support by IT Rulez.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -18,7 +18,13 @@
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
